@@ -1,222 +1,460 @@
-[14:19:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:19:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:19:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:19:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:19:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:19:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:19:41] [ServerMain/INFO]: Reloading ResourceManager: Default
-[14:19:46] [Worker-Main-4/INFO]: Loaded 7 recipes
-[14:19:49] [Worker-Main-4/INFO]: Loaded 1141 advancements
-[14:20:01] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[14:20:01] [Server thread/INFO]: Loading properties
-[14:20:01] [Server thread/INFO]: Default game type: SURVIVAL
-[14:20:01] [Server thread/INFO]: Generating keypair
-[14:20:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:20:02] [Server thread/INFO]: Using epoll channel type
-[14:20:04] [Server thread/INFO]: Preparing level "world"
-[14:20:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:20:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:20:32] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[14:20:32] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:20:34] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[14:20:34] [Worker-Main-4/INFO]: Preparing spawn area: 3%
-[14:20:35] [Worker-Main-6/INFO]: Preparing spawn area: 4%
-[14:20:35] [Worker-Main-5/INFO]: Preparing spawn area: 5%
-[14:20:36] [Worker-Main-6/INFO]: Preparing spawn area: 8%
-[14:20:36] [Worker-Main-6/INFO]: Preparing spawn area: 9%
-[14:20:37] [Worker-Main-6/INFO]: Preparing spawn area: 10%
-[14:20:37] [Worker-Main-4/INFO]: Preparing spawn area: 12%
-[14:20:38] [Worker-Main-6/INFO]: Preparing spawn area: 15%
-[14:20:38] [Worker-Main-6/INFO]: Preparing spawn area: 16%
-[14:20:39] [Worker-Main-4/INFO]: Preparing spawn area: 18%
-[14:20:39] [Worker-Main-5/INFO]: Preparing spawn area: 20%
-[14:20:40] [Worker-Main-4/INFO]: Preparing spawn area: 22%
-[14:20:40] [Worker-Main-4/INFO]: Preparing spawn area: 23%
-[14:20:43] [Worker-Main-6/INFO]: Preparing spawn area: 23%
-[14:20:43] [Worker-Main-5/INFO]: Preparing spawn area: 23%
-[14:20:43] [Worker-Main-4/INFO]: Preparing spawn area: 23%
-[14:20:43] [Worker-Main-4/INFO]: Preparing spawn area: 23%
-[14:20:43] [Worker-Main-5/INFO]: Preparing spawn area: 25%
-[14:20:43] [Worker-Main-6/INFO]: Preparing spawn area: 30%
-[14:20:44] [Worker-Main-5/INFO]: Preparing spawn area: 33%
-[14:20:44] [Worker-Main-4/INFO]: Preparing spawn area: 36%
-[14:20:45] [Worker-Main-6/INFO]: Preparing spawn area: 37%
-[14:20:45] [Worker-Main-4/INFO]: Preparing spawn area: 42%
-[14:20:46] [Worker-Main-6/INFO]: Preparing spawn area: 46%
-[14:20:46] [Worker-Main-5/INFO]: Preparing spawn area: 48%
-[14:20:47] [Worker-Main-5/INFO]: Preparing spawn area: 51%
-[14:20:47] [Worker-Main-5/INFO]: Preparing spawn area: 54%
-[14:20:48] [Worker-Main-4/INFO]: Preparing spawn area: 54%
-[14:20:49] [Worker-Main-5/INFO]: Preparing spawn area: 56%
-[14:20:49] [Worker-Main-4/INFO]: Preparing spawn area: 57%
-[14:20:49] [Worker-Main-6/INFO]: Preparing spawn area: 61%
-[14:20:50] [Worker-Main-5/INFO]: Preparing spawn area: 63%
-[14:20:50] [Worker-Main-4/INFO]: Preparing spawn area: 67%
-[14:20:51] [Worker-Main-6/INFO]: Preparing spawn area: 68%
-[14:20:53] [Worker-Main-6/INFO]: Preparing spawn area: 68%
-[14:20:53] [Worker-Main-4/INFO]: Preparing spawn area: 68%
-[14:20:53] [Worker-Main-6/INFO]: Preparing spawn area: 68%
-[14:20:54] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[14:20:54] [Worker-Main-4/INFO]: Preparing spawn area: 68%
-[14:20:54] [Worker-Main-4/INFO]: Preparing spawn area: 68%
-[14:20:55] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[14:20:55] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[14:20:55] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[14:20:56] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[14:20:56] [Worker-Main-5/INFO]: Preparing spawn area: 71%
-[14:20:57] [Worker-Main-4/INFO]: Preparing spawn area: 72%
-[14:20:57] [Worker-Main-5/INFO]: Preparing spawn area: 72%
-[14:20:58] [Worker-Main-6/INFO]: Preparing spawn area: 72%
-[14:20:59] [Worker-Main-4/INFO]: Preparing spawn area: 72%
-[14:20:59] [Worker-Main-6/INFO]: Preparing spawn area: 72%
-[14:21:00] [Worker-Main-6/INFO]: Preparing spawn area: 72%
-[14:21:00] [Worker-Main-4/INFO]: Preparing spawn area: 73%
-[14:21:01] [Worker-Main-5/INFO]: Preparing spawn area: 73%
-[14:21:01] [Worker-Main-6/INFO]: Preparing spawn area: 73%
-[14:21:02] [Worker-Main-5/INFO]: Preparing spawn area: 73%
-[14:21:02] [Worker-Main-6/INFO]: Preparing spawn area: 73%
-[14:21:02] [Worker-Main-5/INFO]: Preparing spawn area: 74%
-[14:21:03] [Worker-Main-6/INFO]: Preparing spawn area: 74%
-[14:21:03] [Worker-Main-6/INFO]: Preparing spawn area: 74%
-[14:21:04] [Worker-Main-6/INFO]: Preparing spawn area: 74%
-[14:21:05] [Worker-Main-4/INFO]: Preparing spawn area: 75%
-[14:21:05] [Worker-Main-4/INFO]: Preparing spawn area: 76%
-[14:21:05] [Worker-Main-6/INFO]: Preparing spawn area: 76%
-[14:21:06] [Worker-Main-4/INFO]: Preparing spawn area: 77%
-[14:21:06] [Worker-Main-4/INFO]: Preparing spawn area: 78%
-[14:21:07] [Worker-Main-5/INFO]: Preparing spawn area: 79%
-[14:21:08] [Worker-Main-6/INFO]: Preparing spawn area: 81%
-[14:21:08] [Worker-Main-5/INFO]: Preparing spawn area: 81%
-[14:21:08] [Worker-Main-5/INFO]: Preparing spawn area: 82%
-[14:21:09] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[14:21:09] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[14:21:11] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[14:21:11] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[14:21:11] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[14:21:11] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[14:21:12] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[14:21:12] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[14:21:13] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[14:21:13] [Worker-Main-5/INFO]: Preparing spawn area: 86%
-[14:21:14] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[14:21:15] [Worker-Main-6/INFO]: Preparing spawn area: 88%
-[14:21:15] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[14:21:16] [Worker-Main-6/INFO]: Preparing spawn area: 88%
-[14:21:16] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[14:21:16] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[14:21:17] [Worker-Main-4/INFO]: Preparing spawn area: 88%
-[14:21:18] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[14:21:18] [Worker-Main-4/INFO]: Preparing spawn area: 88%
-[14:21:18] [Worker-Main-4/INFO]: Preparing spawn area: 88%
-[14:21:19] [Worker-Main-6/INFO]: Preparing spawn area: 89%
-[14:21:19] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[14:21:20] [Worker-Main-5/INFO]: Preparing spawn area: 89%
-[14:21:20] [Worker-Main-6/INFO]: Preparing spawn area: 89%
-[14:21:21] [Worker-Main-5/INFO]: Preparing spawn area: 89%
-[14:21:21] [Worker-Main-5/INFO]: Preparing spawn area: 92%
-[14:21:22] [Worker-Main-4/INFO]: Preparing spawn area: 92%
-[14:21:22] [Worker-Main-4/INFO]: Preparing spawn area: 93%
-[14:21:23] [Worker-Main-4/INFO]: Preparing spawn area: 93%
-[14:21:24] [Worker-Main-4/INFO]: Preparing spawn area: 93%
-[14:21:24] [Worker-Main-6/INFO]: Preparing spawn area: 93%
-[14:21:24] [Worker-Main-4/INFO]: Preparing spawn area: 94%
-[14:21:25] [Worker-Main-4/INFO]: Preparing spawn area: 94%
-[14:21:25] [Worker-Main-6/INFO]: Preparing spawn area: 94%
-[14:21:26] [Worker-Main-4/INFO]: Preparing spawn area: 94%
-[14:21:26] [Worker-Main-5/INFO]: Preparing spawn area: 95%
-[14:21:27] [Worker-Main-5/INFO]: Preparing spawn area: 95%
-[14:21:28] [Worker-Main-4/INFO]: Preparing spawn area: 95%
-[14:21:28] [Worker-Main-6/INFO]: Preparing spawn area: 95%
-[14:21:28] [Worker-Main-4/INFO]: Preparing spawn area: 96%
-[14:21:29] [Worker-Main-6/INFO]: Preparing spawn area: 96%
-[14:21:29] [Worker-Main-4/INFO]: Preparing spawn area: 96%
-[14:21:30] [Worker-Main-5/INFO]: Preparing spawn area: 96%
-[14:21:30] [Worker-Main-6/INFO]: Preparing spawn area: 96%
-[14:21:31] [Worker-Main-6/INFO]: Preparing spawn area: 98%
-[14:21:31] [Worker-Main-6/INFO]: Preparing spawn area: 98%
-[14:21:32] [Worker-Main-4/INFO]: Preparing spawn area: 98%
-[14:21:32] [Worker-Main-4/INFO]: Preparing spawn area: 99%
-[14:21:33] [Worker-Main-4/INFO]: Preparing spawn area: 99%
-[14:21:33] [Server thread/INFO]: Time elapsed: 88312 ms
-[14:21:33] [Server thread/INFO]: Done (89.469s)! For help, type "help"
-[14:21:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[14:21:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4343ms or 86 ticks behind
-[14:27:55] [User Authenticator #1/INFO]: UUID of player J850NK is 45454ed2-e77c-4913-8889-fc6588744ca7
-[14:27:56] [Server thread/INFO]: J850NK[/82.14.34.97:53345] logged in with entity id 124 at (-3426.7749813113414, 63.0, 2636.780791104732)
-[14:27:56] [Server thread/INFO]: J850NK joined the game
-[14:28:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4346ms or 86 ticks behind
-[14:28:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2214ms or 44 ticks behind
-[14:28:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[14:30:46] [Server thread/INFO]: <J850NK> you here?
-[14:33:06] [Server thread/INFO]: J850NK has made the advancement [Who is Cutting Onions?]
-[14:41:32] [Server thread/INFO]: <J850NK> where are you
-[14:43:22] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at acj$1.run(SourceFile:101) [server-1.18.1.jar:?]
-[14:43:22] [Server thread/INFO]: Stopping server
+[17:11:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:12:00] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:12:00] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:12:00] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:12:00] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:12:00] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:12:00] [ServerMain/INFO]: Reloading ResourceManager: Default
+[17:12:04] [Worker-Main-4/INFO]: Loaded 7 recipes
+[17:12:08] [Worker-Main-4/INFO]: Loaded 1141 advancements
+[17:12:19] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[17:12:19] [Server thread/INFO]: Loading properties
+[17:12:19] [Server thread/INFO]: Default game type: SURVIVAL
+[17:12:19] [Server thread/INFO]: Generating keypair
+[17:12:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:12:21] [Server thread/INFO]: Using epoll channel type
+[17:12:22] [Server thread/INFO]: Preparing level "world"
+[17:12:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:12:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:45] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:45] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:12:46] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:46] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:12:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:12:49] [Worker-Main-4/INFO]: Preparing spawn area: 2%
+[17:12:50] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[17:12:50] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[17:12:51] [Worker-Main-5/INFO]: Preparing spawn area: 5%
+[17:12:51] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[17:12:52] [Worker-Main-6/INFO]: Preparing spawn area: 7%
+[17:12:52] [Worker-Main-6/INFO]: Preparing spawn area: 9%
+[17:12:53] [Worker-Main-5/INFO]: Preparing spawn area: 10%
+[17:12:53] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[17:12:54] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[17:12:54] [Worker-Main-6/INFO]: Preparing spawn area: 15%
+[17:12:55] [Worker-Main-6/INFO]: Preparing spawn area: 17%
+[17:12:55] [Worker-Main-6/INFO]: Preparing spawn area: 17%
+[17:12:56] [Worker-Main-5/INFO]: Preparing spawn area: 17%
+[17:12:58] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[17:12:58] [Worker-Main-4/INFO]: Preparing spawn area: 18%
+[17:12:58] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[17:12:58] [Worker-Main-5/INFO]: Preparing spawn area: 18%
+[17:12:58] [Worker-Main-4/INFO]: Preparing spawn area: 19%
+[17:12:59] [Worker-Main-5/INFO]: Preparing spawn area: 21%
+[17:12:59] [Worker-Main-6/INFO]: Preparing spawn area: 24%
+[17:13:00] [Worker-Main-5/INFO]: Preparing spawn area: 29%
+[17:13:00] [Worker-Main-5/INFO]: Preparing spawn area: 31%
+[17:13:01] [User Authenticator #1/INFO]: UUID of player Saltyboi6704 is bc0bd45a-3614-48f3-993c-5092a89fffbf
+[17:13:01] [Worker-Main-5/INFO]: Preparing spawn area: 31%
+[17:13:01] [Worker-Main-4/INFO]: Preparing spawn area: 34%
+[17:13:02] [Worker-Main-4/INFO]: Preparing spawn area: 38%
+[17:13:02] [Worker-Main-6/INFO]: Preparing spawn area: 41%
+[17:13:03] [Worker-Main-5/INFO]: Preparing spawn area: 46%
+[17:13:03] [Worker-Main-4/INFO]: Preparing spawn area: 48%
+[17:13:04] [Worker-Main-5/INFO]: Preparing spawn area: 52%
+[17:13:04] [Worker-Main-4/INFO]: Preparing spawn area: 56%
+[17:13:05] [Worker-Main-5/INFO]: Preparing spawn area: 58%
+[17:13:05] [Worker-Main-4/INFO]: Preparing spawn area: 61%
+[17:13:06] [Worker-Main-6/INFO]: Preparing spawn area: 65%
+[17:13:06] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[17:13:08] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[17:13:08] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[17:13:09] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[17:13:09] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[17:13:09] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[17:13:09] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[17:13:11] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[17:13:11] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[17:13:11] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[17:13:11] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[17:13:12] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[17:13:12] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[17:13:13] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[17:13:13] [Worker-Main-6/INFO]: Preparing spawn area: 69%
+[17:13:14] [Worker-Main-6/INFO]: Preparing spawn area: 69%
+[17:13:15] [Worker-Main-4/INFO]: Preparing spawn area: 69%
+[17:13:15] [Worker-Main-5/INFO]: Preparing spawn area: 69%
+[17:13:15] [Worker-Main-5/INFO]: Preparing spawn area: 69%
+[17:13:16] [Worker-Main-4/INFO]: Preparing spawn area: 69%
+[17:13:16] [Worker-Main-5/INFO]: Preparing spawn area: 69%
+[17:13:17] [Worker-Main-4/INFO]: Preparing spawn area: 71%
+[17:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 71%
+[17:13:18] [Worker-Main-6/INFO]: Preparing spawn area: 71%
+[17:13:18] [Worker-Main-6/INFO]: Preparing spawn area: 72%
+[17:13:19] [Worker-Main-5/INFO]: Preparing spawn area: 72%
+[17:13:19] [Worker-Main-4/INFO]: Preparing spawn area: 73%
+[17:13:20] [Worker-Main-4/INFO]: Preparing spawn area: 74%
+[17:13:20] [Worker-Main-5/INFO]: Preparing spawn area: 74%
+[17:13:21] [Worker-Main-6/INFO]: Preparing spawn area: 74%
+[17:13:21] [Worker-Main-4/INFO]: Preparing spawn area: 75%
+[17:13:22] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[17:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 78%
+[17:13:23] [Worker-Main-6/INFO]: Preparing spawn area: 80%
+[17:13:23] [Worker-Main-5/INFO]: Preparing spawn area: 81%
+[17:13:24] [Worker-Main-4/INFO]: Preparing spawn area: 81%
+[17:13:24] [Worker-Main-5/INFO]: Preparing spawn area: 81%
+[17:13:25] [Worker-Main-5/INFO]: Preparing spawn area: 82%
+[17:13:25] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[17:13:26] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[17:13:27] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[17:13:27] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[17:13:27] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[17:13:28] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[17:13:28] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[17:13:29] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[17:13:29] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[17:13:30] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[17:13:30] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[17:13:31] [Worker-Main-5/INFO]: Preparing spawn area: 84%
+[17:13:31] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[17:13:32] [Worker-Main-5/INFO]: Preparing spawn area: 84%
+[17:13:32] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[17:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[17:13:33] [Worker-Main-5/INFO]: Preparing spawn area: 84%
+[17:13:34] [Worker-Main-6/INFO]: Preparing spawn area: 85%
+[17:13:34] [Worker-Main-6/INFO]: Preparing spawn area: 85%
+[17:13:35] [Worker-Main-5/INFO]: Preparing spawn area: 85%
+[17:13:35] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[17:13:36] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[17:13:36] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[17:13:37] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[17:13:37] [Worker-Main-4/INFO]: Preparing spawn area: 87%
+[17:13:38] [Worker-Main-5/INFO]: Preparing spawn area: 87%
+[17:13:38] [Worker-Main-6/INFO]: Preparing spawn area: 88%
+[17:13:39] [Worker-Main-4/INFO]: Preparing spawn area: 88%
+[17:13:39] [Worker-Main-5/INFO]: Preparing spawn area: 88%
+[17:13:40] [Worker-Main-5/INFO]: Preparing spawn area: 90%
+[17:13:40] [Worker-Main-5/INFO]: Preparing spawn area: 91%
+[17:13:41] [Worker-Main-4/INFO]: Preparing spawn area: 91%
+[17:13:41] [Worker-Main-5/INFO]: Preparing spawn area: 92%
+[17:13:42] [Worker-Main-5/INFO]: Preparing spawn area: 93%
+[17:13:42] [Worker-Main-4/INFO]: Preparing spawn area: 94%
+[17:13:43] [Worker-Main-4/INFO]: Preparing spawn area: 94%
+[17:13:43] [Worker-Main-4/INFO]: Preparing spawn area: 95%
+[17:13:44] [Worker-Main-5/INFO]: Preparing spawn area: 95%
+[17:13:44] [Worker-Main-5/INFO]: Preparing spawn area: 97%
+[17:13:45] [Worker-Main-5/INFO]: Preparing spawn area: 97%
+[17:13:45] [Worker-Main-6/INFO]: Preparing spawn area: 98%
+[17:13:46] [Worker-Main-4/INFO]: Preparing spawn area: 98%
+[17:13:46] [Worker-Main-6/INFO]: Preparing spawn area: 99%
+[17:13:47] [Worker-Main-5/INFO]: Preparing spawn area: 99%
+[17:13:47] [Server thread/INFO]: Time elapsed: 84125 ms
+[17:13:47] [Server thread/INFO]: Done (85.048s)! For help, type "help"
+[17:13:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@51fc7056[id=bc0bd45a-3614-48f3-993c-5092a89fffbf,name=Saltyboi6704,properties={textures=[com.mojang.authlib.properties.Property@2c5d5f99]},legacy=false] (/86.145.246.227:65461) lost connection: Disconnected
+[17:13:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[17:13:50] [User Authenticator #2/INFO]: UUID of player Saltyboi6704 is bc0bd45a-3614-48f3-993c-5092a89fffbf
+[17:13:51] [Server thread/INFO]: Saltyboi6704[/86.145.246.227:65485] logged in with entity id 123 at (-3365.2255486311183, 71.0, 2654.3569030368785)
+[17:13:51] [Server thread/INFO]: Saltyboi6704 joined the game
+[17:14:00] [User Authenticator #3/INFO]: UUID of player Skingo12 is a539f6b7-b774-45ab-ac90-d05f51501660
+[17:14:00] [Server thread/INFO]: Skingo12[/192.168.0.54:53968] logged in with entity id 124 at (-3436.5601777192583, 62.07326432466506, 2643.1877853621313)
+[17:14:00] [Server thread/INFO]: Skingo12 joined the game
+[17:14:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 54350ms or 1087 ticks behind
+[17:15:10] [Server thread/INFO]: [Skingo12: Applied effect Glowing to 2 targets]
+[17:15:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23970ms or 479 ticks behind
+[17:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32993ms or 659 ticks behind
+[17:16:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10860ms or 217 ticks behind
+[17:17:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8809ms or 176 ticks behind
+[17:17:22] [Server thread/INFO]: [Skingo12: Applied effect Night Vision to 2 targets]
+[17:17:32] [Server thread/INFO]: [Skingo12: Made Saltyboi6704 a server operator]
+[17:17:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12261ms or 245 ticks behind
+[17:18:01] [Server thread/INFO]: [Saltyboi6704: Applied enchantment Sharpness V to Saltyboi6704's item]
+[17:18:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9510ms or 190 ticks behind
+[17:18:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6131ms or 122 ticks behind
+[17:18:39] [Server thread/INFO]: [Skingo12: Applied enchantment Flame to Skingo12's item]
+[17:18:48] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Steak] to Saltyboi6704]
+[17:18:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6623ms or 132 ticks behind
+[17:18:51] [Server thread/INFO]: [Skingo12: Summoned new Lightning Bolt]
+[17:19:06] [Server thread/INFO]: [Saltyboi6704: Gave 128 [Steak] to Saltyboi6704]
+[17:19:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5701ms or 114 ticks behind
+[17:19:19] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Golden Carrot] to Saltyboi6704]
+[17:19:22] [Server thread/INFO]: [Skingo12: Applied enchantment Channeling to Skingo12's item]
+[17:19:23] [Server thread/INFO]: [Saltyboi6704: Gave 127 [Golden Carrot] to Saltyboi6704]
+[17:19:38] [Server thread/INFO]: [Skingo12: Applied enchantment Loyalty I to Skingo12's item]
+[17:20:38] [Server thread/INFO]: [Skingo12: Set the weather to rain & thunder]
+[17:21:01] [Server thread/INFO]: Saltyboi6704 has made the advancement [A Throwaway Joke]
+[17:21:48] [Server thread/INFO]: [Skingo12: Set spawn point to -3371, 107, 2661 [0.0] in minecraft:overworld for 2 players]
+[17:21:59] [Server thread/INFO]: [Skingo12: Saved the game]
+[17:24:57] [Server thread/INFO]: [Skingo12: Applied effect Glowing to 2 targets]
+[17:25:13] [Server thread/INFO]: [Skingo12: Applied effect Blindness to 2 targets]
+[17:26:08] [Server thread/INFO]: [Skingo12: Set own game mode to Survival Mode]
+[17:26:26] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Stick] to Saltyboi6704]
+[17:26:40] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[17:27:18] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Stick] to Saltyboi6704]
+[17:29:09] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Acacia Boat] to Saltyboi6704]
+[17:29:48] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Acacia Boat] to Saltyboi6704]
+[17:30:31] [Server thread/INFO]: [Saltyboi6704: Applied effect Saturation to Saltyboi6704]
+[17:30:49] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Acacia Boat] to Saltyboi6704]
+[17:30:55] [Server thread/INFO]: Skingo12 was slain by Saltyboi6704
+[17:31:12] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[17:31:38] [Server thread/INFO]: Saltyboi6704 was slain by Skingo12
+[17:31:47] [Server thread/INFO]: Skingo12 has reached the goal [Sky's the Limit]
+[17:33:07] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[17:33:07] [Server thread/WARN]: Skingo12 moved too quickly! 44.62314709022121,-1.0,-426.73884757926226
+[17:33:17] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[17:33:32] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:34:18] [Server thread/INFO]: [Skingo12: Applied effect Glowing to 2 targets]
+[17:34:27] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:34:44] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:34:50] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Helmet] to Saltyboi6704]
+[17:35:17] [Server thread/INFO]: [Skingo12: Gave 1 [Netherite Chestplate] to Skingo12]
+[17:35:42] [Server thread/INFO]: [Skingo12: Applied enchantment Thorns III to Skingo12's item]
+[17:35:48] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Bow] to Saltyboi6704]
+[17:35:49] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:35:55] [Server thread/INFO]: Saltyboi6704 has made the advancement [Take Aim]
+[17:36:08] [Server thread/INFO]: [Saltyboi6704: Gave 128 [Spectral Arrow] to Saltyboi6704]
+[17:36:44] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to Skingo12]
+[17:36:47] [Server thread/INFO]: [Saltyboi6704: Applied enchantment Infinity to Saltyboi6704's item]
+[17:36:58] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:37:29] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Chest] to Saltyboi6704]
+[17:37:47] [Server thread/INFO]: [Skingo12: Gave 1 [Ender Chest] to Skingo12]
+[17:38:15] [Server thread/INFO]: [Skingo12: Applied effect Blindness to 2 targets]
+[17:38:25] [Server thread/INFO]: [Saltyboi6704: Removed every effect from Saltyboi6704]
+[17:38:31] [Server thread/INFO]: [Skingo12: Removed every effect from Skingo12]
+[17:38:45] [Server thread/INFO]: [Skingo12: Applied effect Nausea to 2 targets]
+[17:38:51] [Server thread/INFO]: [Skingo12: Removed every effect from Skingo12]
+[17:38:59] [Server thread/INFO]: [Saltyboi6704: Applied effect Jump Boost to Skingo12]
+[17:39:03] [Server thread/INFO]: [Skingo12: Removed 181 items from player Saltyboi6704]
+[17:39:11] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Helmet] to Saltyboi6704]
+[17:39:17] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[17:39:21] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:39:48] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Saltyboi6704]
+[17:40:01] [Server thread/INFO]: [Skingo12: Applied effect Glowing to 2 targets]
+[17:40:24] [Server thread/INFO]: [Skingo12: Applied effect Wither to Saltyboi6704]
+[17:40:45] [Server thread/INFO]: [Saltyboi6704: Applied effect Saturation to Saltyboi6704]
+[17:41:23] [Server thread/INFO]: Saltyboi6704 fell out of the world
+[17:41:23] [Server thread/INFO]: [Skingo12: Killed Saltyboi6704]
+[17:41:28] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[17:41:33] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Helmet] to Saltyboi6704]
+[17:42:00] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to Skingo12]
+[17:42:21] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Bow] to Saltyboi6704]
+[17:42:25] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:43:39] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Arrow] to Saltyboi6704]
+[17:43:41] [Server thread/INFO]: Saltyboi6704 was killed trying to hurt Skingo12
+[17:43:46] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Helmet] to Saltyboi6704]
+[17:43:49] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:43:53] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[17:44:19] [Server thread/INFO]: [Skingo12: Gave 1 [Netherite Boots] to Skingo12]
+[17:44:25] [Server thread/INFO]: [Saltyboi6704: Gave 16 [End Crystal] to Saltyboi6704]
+[17:44:29] [Server thread/INFO]: [Skingo12: Applied enchantment Frost Walker I to Skingo12's item]
+[17:44:37] [Server thread/INFO]: Saltyboi6704 has made the advancement [Ice Bucket Challenge]
+[17:44:37] [Server thread/INFO]: [Saltyboi6704: Gave 16 [Obsidian] to Saltyboi6704]
+[17:45:40] [Server thread/INFO]: Saltyboi6704 was killed trying to hurt Skingo12
+[17:45:41] [Server thread/INFO]: Skipping update from removed player 'adj['Saltyboi6704'/123, l='ServerLevel[world]', x=-3387.30, y=61.68, z=2237.70, removed=KILLED]'
+[17:45:52] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[17:45:53] [Server thread/INFO]: Skingo12 has made the advancement [Ice Bucket Challenge]
+[17:46:19] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Saltyboi6704]
+[17:46:38] [Server thread/INFO]: [Skingo12: Summoned new Lightning Bolt]
+[17:47:09] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Lingering Uncraftable Potion] to Saltyboi6704]
+[17:47:54] [Server thread/INFO]: [Skingo12: Gave 1 [Brewing Stand] to Skingo12]
+[17:48:10] [Server thread/INFO]: [Skingo12: Gave 255 [Glass Bottle] to Skingo12]
+[17:48:13] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Bow] to Saltyboi6704]
+[17:48:35] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Bow] to Saltyboi6704]
+[17:48:52] [Server thread/INFO]: [Skingo12: Gave 63 [Nether Wart] to Skingo12]
+[17:48:56] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Bow] to Saltyboi6704]
+[17:49:08] [Server thread/INFO]: [Skingo12: Gave 64 [Blaze Powder] to Skingo12]
+[17:49:12] [Server thread/INFO]: Skingo12 has made the advancement [Local Brewery]
+[17:49:31] [Server thread/INFO]: [Saltyboi6704: Applied effect Absorption to Saltyboi6704]
+[17:49:46] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Arrow] to Saltyboi6704]
+[17:50:08] [Server thread/INFO]: [Saltyboi6704: Applied enchantment Infinity to Saltyboi6704's item]
+[17:50:37] [Server thread/INFO]: [Saltyboi6704: Applied effect Absorption to Saltyboi6704]
+[17:50:42] [Server thread/INFO]: [Skingo12: Applied effect Water Breathing to Skingo12]
+[17:50:52] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to Skingo12]
+[17:50:54] [Server thread/INFO]: [Saltyboi6704: Applied enchantment Power V to Saltyboi6704's item]
+[17:51:02] [Server thread/INFO]: Saltyboi6704 was killed trying to hurt Skingo12
+[17:51:15] [Server thread/INFO]: Saltyboi6704 was killed trying to hurt Skingo12
+[17:51:39] [Server thread/INFO]: [Saltyboi6704: Summoned new Area Effect Cloud]
+[17:51:59] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[17:52:16] [Server thread/INFO]: [Saltyboi6704: Applied effect Strength to Saltyboi6704]
+[17:52:19] [Server thread/INFO]: [Skingo12: Gave 255 [Spider Eye] to Skingo12]
+[17:52:25] [Server thread/INFO]: [Skingo12: Gave 64 [Fermented Spider Eye] to Skingo12]
+[17:52:28] [Server thread/INFO]: [Saltyboi6704: Applied effect Health Boost to Saltyboi6704]
+[17:52:31] [Server thread/INFO]: [Skingo12: Gave 64 [Gunpowder] to Skingo12]
+[17:52:38] [Server thread/INFO]: [Saltyboi6704: Applied effect Saturation to Saltyboi6704]
+[17:52:47] [Server thread/INFO]: [Saltyboi6704: Applied effect Saturation to Saltyboi6704]
+[17:53:03] [Server thread/INFO]: [Skingo12: Applied effect Glowing to Saltyboi6704]
+[17:53:18] [Server thread/INFO]: [Skingo12: Applied effect Invisibility to Skingo12]
+[17:53:18] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Golden Apple] to Saltyboi6704]
+[17:53:38] [Server thread/INFO]: Skingo12 was killed trying to hurt Saltyboi6704
+[17:53:40] [Server thread/INFO]: [Saltyboi6704: Applied effect Regeneration to Saltyboi6704]
+[17:53:51] [Server thread/INFO]: [Saltyboi6704: Applied effect Health Boost to Saltyboi6704]
+[17:56:04] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Elytra] to 2]
+[17:56:22] [Server thread/INFO]: [Saltyboi6704: Gave 256 [Firework Rocket] to 2]
+[17:56:43] [Server thread/INFO]: [Saltyboi6704: Applied effect Health Boost to Saltyboi6704]
+[17:56:51] [Server thread/INFO]: [Saltyboi6704: Applied effect Regeneration to Saltyboi6704]
+[17:57:05] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[17:57:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[17:57:44] [Server thread/WARN]: Saltyboi6704 moved too quickly! 0.0706135106106558,-1.2754491252069897,-17.665964476824
+[17:57:51] [Server thread/WARN]: Saltyboi6704 moved too quickly! 6.0084732422842535,-8.014735644163665,-14.942862245194874
+[17:57:59] [Server thread/WARN]: Saltyboi6704 moved too quickly! 0.2795211357233711,-2.4577772584800783,-17.239086626596418
+[17:58:03] [Server thread/WARN]: Saltyboi6704 moved too quickly! 0.34696448108206823,-2.560076301873906,-17.39661247946401
+[17:58:05] [Server thread/INFO]: [Skingo12: Applied effect Glowing to 2 targets]
+[17:58:13] [Server thread/WARN]: Saltyboi6704 moved too quickly! 0.3550092150476303,-1.8673741814604483,-17.799949147573898
+[17:58:14] [Server thread/INFO]: [Saltyboi6704: Teleported Saltyboi6704 to 13000.500000, 99.658622, 1600.310486]
+[17:58:21] [Server thread/WARN]: Skingo12 moved too quickly! -4.871444254573362,7.952069845517997,15.858260273259475
+[17:58:21] [Server thread/WARN]: Saltyboi6704 moved too quickly! -0.3895352872696094,-17.175396921442527,-3.338810980560993
+[17:58:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39820ms or 796 ticks behind
+[17:58:32] [Server thread/INFO]: [Skingo12: Teleported Saltyboi6704 to Skingo12]
+[17:58:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[17:59:11] [Server thread/INFO]: [Saltyboi6704: Gave 128 [Golden Carrot] to Saltyboi6704]
+[17:59:41] [Server thread/WARN]: Skingo12 moved wrongly!
+[18:01:24] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:02:05] [Server thread/INFO]: [Skingo12: Gave 255 [Firework Rocket] to Skingo12]
+[18:02:19] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Flint and Steel] to Saltyboi6704]
+[18:02:29] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:02:35] [Server thread/INFO]: Skingo12 has completed the challenge [Great View From Up Here]
+[18:02:46] [Server thread/INFO]: Skingo12 fell from a high place
+[18:02:59] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[18:02:59] [Server thread/WARN]: Skingo12 moved too quickly! 17.56353098614818,6.0,368.94413366184426
+[18:03:13] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:03:24] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to Skingo12]
+[18:03:35] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:03:48] [Server thread/INFO]: Skingo12 fell from a high place
+[18:03:49] [Server thread/INFO]: Skipping update from removed player 'adj['Skingo12'/124, l='ServerLevel[world]', x=-3362.27, y=78.00, z=2629.31, removed=KILLED]'
+[18:04:00] [Server thread/INFO]: [Saltyboi6704: Gamerule fireDamage is now set to: true]
+[18:04:01] [Server thread/INFO]: [Skingo12: Applied effect Slow Falling to Skingo12]
+[18:04:06] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[18:04:06] [Server thread/WARN]: Skingo12 moved too quickly! 18.49487016312105,0.7531999805212024,377.2916232709458
+[18:04:18] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to Skingo12]
+[18:04:26] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:05:04] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:05:11] [Server thread/INFO]: [Saltyboi6704: Gamerule doFireTick is now set to: true]
+[18:05:19] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Saltyboi6704]
+[18:05:28] [Server thread/INFO]: Saltyboi6704 has completed the challenge [Great View From Up Here]
+[18:05:40] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:06:11] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Saltyboi6704]
+[18:06:46] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Saltyboi6704]
+[18:07:05] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Saltyboi6704]
+[18:07:12] [Server thread/INFO]: [Skingo12: Applied effect Levitation to Skingo12]
+[18:07:49] [Server thread/INFO]: [Skingo12: Gave 32 [Water Bucket] to Skingo12]
+[18:08:17] [Server thread/INFO]: [Skingo12: Gamerule fireDamage is now set to: false]
+[18:09:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[18:09:52] [Server thread/INFO]: [Skingo12: Applied effect Health Boost to Skingo12]
+[18:09:59] [Server thread/INFO]: Skingo12 was slain by Zombie
+[18:10:05] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[18:10:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3359ms or 67 ticks behind
+[18:10:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3151ms or 63 ticks behind
+[18:10:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2859ms or 57 ticks behind
+[18:10:51] [Server thread/INFO]: [Skingo12: Gamerule doFireTick is now set to: false]
+[18:11:08] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[18:11:43] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to 2 targets]
+[18:12:01] [Server thread/INFO]: [Skingo12: Applied effect Hero of the Village to 2 targets]
+[18:12:11] [Server thread/INFO]: [Skingo12: Applied effect Night Vision to 2 targets]
+[18:12:20] [Server thread/INFO]: [Saltyboi6704: Summoned new Villager]
+[18:12:38] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Black Bed] to Saltyboi6704]
+[18:12:50] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Crafting Table] to Saltyboi6704]
+[18:13:00] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Lectern] to Saltyboi6704]
+[18:13:12] [Server thread/INFO]: [Skingo12: Teleported Skingo12 to Saltyboi6704]
+[18:13:37] [Server thread/INFO]: [Skingo12: Gave 62 [Emerald] to Skingo12]
+[18:13:58] [Server thread/INFO]: [Skingo12: Gave 255 [Book] to Skingo12]
+[18:14:04] [Server thread/INFO]: Skingo12 has made the advancement [What a Deal!]
+[18:15:05] [Server thread/INFO]: [Saltyboi6704: Gave 256 [Bone Meal] to Saltyboi6704]
+[18:15:24] [Server thread/INFO]: Saltyboi6704 has completed the challenge [Serious Dedication]
+[18:15:24] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Hoe] to Saltyboi6704]
+[18:16:03] [Server thread/INFO]: [Skingo12: Set own game mode to Creative Mode]
+[18:16:37] [Server thread/INFO]: [Skingo12: Removed 330 items from player Skingo12]
+[18:17:48] [Server thread/INFO]: [Skingo12: Successfully filled 480 blocks]
+[18:18:01] [Server thread/INFO]: [Skingo12: Successfully filled 5760 blocks]
+[18:18:01] [Server thread/INFO]: [Saltyboi6704: Teleported Saltyboi6704 to -3408.472362, 2000.000000, 2650.300000]
+[18:18:46] [Server thread/INFO]: [Skingo12: Applied effect Regeneration to Skingo12]
+[18:19:07] [Server thread/INFO]: [Skingo12: Applied effect Glowing to Saltyboi6704]
+[18:19:23] [Server thread/INFO]: [Skingo12: Gave 1 [Empty Map] to Skingo12]
+[18:19:28] [Server thread/INFO]: [Saltyboi6704: Gave 1 [Netherite Leggings] to Saltyboi6704]
+[18:19:49] [Server thread/INFO]: [Skingo12: Successfully filled 6240 blocks]
+[18:20:02] [Server thread/INFO]: [Skingo12: Successfully filled 6240 blocks]
+[18:20:41] [Server thread/INFO]: [Skingo12: Successfully filled 6240 blocks]
+[18:20:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3007ms or 60 ticks behind
+[18:20:53] [Server thread/WARN]: Saltyboi6704 moved too quickly! 0.0,-10.28759289625517,0.0
+[18:20:53] [Server thread/WARN]: Skingo12 moved too quickly! 0.0,-11.198862002177734,0.0
+[18:20:59] [Server thread/WARN]: Saltyboi6704 moved too quickly! 0.0,-11.31484983401701,0.0
+[18:21:00] [Server thread/WARN]: Skingo12 moved too quickly! 0.0,-11.31484983401701,0.0
+[18:21:02] [Server thread/WARN]: Skingo12 moved too quickly! 0.0,-10.612022956862129,0.0
+[18:21:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25847ms or 516 ticks behind
+[18:22:12] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:15] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:17] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:20] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:21] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:25] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:34] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:36] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:37] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:41] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:22:45] [Server thread/INFO]: [Skingo12: Gave 6400 [Air] to Saltyboi6704]
+[18:22:55] [Server thread/INFO]: [Saltyboi6704: Gave 6400 [Acacia Door] to Skingo12]
+[18:23:02] [Server thread/INFO]: [Skingo12: Made Saltyboi6704 no longer a server operator]
+[18:23:04] [Server thread/INFO]: [Skingo12: Removed 2160 items from player Skingo12]
+[18:23:08] [Server thread/INFO]: [Skingo12: Made Saltyboi6704 a server operator]
+[18:23:29] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:31] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:32] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:34] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[18:23:35] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:36] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:37] [Server thread/INFO]: [Skingo12: Gave 6400 [Acacia Leaves] to Saltyboi6704]
+[18:23:44] [Server thread/INFO]: [Skingo12: Made Saltyboi6704 no longer a server operator]
+[18:23:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9553ms or 191 ticks behind
+[18:24:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13043ms or 260 ticks behind
+[18:24:51] [Server thread/INFO]: [Skingo12: Made Saltyboi6704 a server operator]
+[18:24:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10146ms or 202 ticks behind
+[18:25:16] [Server thread/INFO]: [Skingo12: Successfully filled 11700 blocks]
+[18:25:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15145ms or 302 ticks behind
+[18:25:35] [Server thread/INFO]: [Skingo12: Successfully filled 11700 blocks]
+[18:25:45] [Server thread/INFO]: [Saltyboi6704: Successfully filled 132 blocks]
+[18:26:11] [Server thread/WARN]: Saltyboi6704 moved too quickly! -0.33131286539673965,9.463536426215242,3.4166373836073944
+[18:26:16] [Server thread/WARN]: Saltyboi6704 moved too quickly! -0.8401191680982265,1.4173356015082703,18.297054983748694
+[18:26:17] [Server thread/WARN]: Saltyboi6704 moved too quickly! -0.974116969959141,2.0769373888038842,18.125486473063575
+[18:26:29] [Server thread/INFO]: [Skingo12: Successfully filled 1673 blocks]
+[18:26:36] [Server thread/WARN]: Skingo12 moved too quickly! -0.22805256071296753,-10.125968145209413,-0.6322779498182172
+[18:26:37] [Server Watchdog/FATAL]: A single server tick took 60.02 seconds (should be max 0.05)
+[18:26:37] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[18:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 61384ms or 1227 ticks behind
+[18:26:39] [Server thread/WARN]: Skingo12 moved too quickly! 0.20857509203324298,-10.287592896255177,-0.35272444851852924
+[18:26:39] [Server Watchdog/ERROR]: This crash report has been saved to: /home/ubuntu/MCS/./crash-reports/crash-2021-12-30_18.26.39-server.txt
